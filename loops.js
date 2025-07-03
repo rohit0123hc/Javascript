@@ -1,7 +1,7 @@
 // print count form 5 to 1 and sore it in array
 
 let n=5
-let countdown=[]
+let countdown=[];
 
 while(n>0){
     countdown.push(n)
