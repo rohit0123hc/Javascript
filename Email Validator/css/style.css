@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 12px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav>ul>li>a:hover{
+    color: gray;
+}
+.logo{
+    padding: 6px;
+    font-size: 12px;
+}
+.logo img{
+    width: 16px;
+    filter: invert(1);
+}
+.logo span{
+    font-size: 20px;
+}
+main{
+    min-height: 90vh;
+    padding: 2px;
+}
+footer{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.container{
+    max-width: 80vw;
+    background-color: gray;
+    margin: auto;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding: 12px;
+    }      
+}
